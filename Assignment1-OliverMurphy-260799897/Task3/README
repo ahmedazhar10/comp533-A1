@@ -1,0 +1,20 @@
+Task 3
+
+How to reuse the module:
+
+To make use of the LoggerAspect module, there are two elements to define in the application specific composition. 
+First, you need to define the pointcuts. There are two pointcuts ("pointcutSet1", "pointcutSet2"). They are 
+separated to define behavior "before" and "after" the jointpoints. Then, you must define the functions 
+("loggingSet1", "loggingSet2") which will be called in the advice.
+
+How to run:
+
+Note: I ran my code on Mac.
+
+1. Open your terminal and go to the folder "Assignment1-OliverMurphy-260799897"
+2. Go to the folder "Task3"
+3. Make sure that ajc is on your path by typing: export PATH=$HOME/aspectj1.9/bin/:$PATH
+4. MAke sure aspectjrt is on your classpath by typing: export CLASSPATH=$HOME/aspectj1.9/lib/aspectjrt.jar:$CLASSPATH
+5. Run the following command: 
+	i. A warning appears. I couldn't get rid of it, but the code works nonetheless so, it can be ignored.
+6. Run the following command: java woven_bankwithlogging.BankWithLogging
