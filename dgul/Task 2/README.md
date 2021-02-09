@@ -1,0 +1,1 @@
+To run the project, create an AspectJ project in Eclipse and add the files included in the zip folder.
