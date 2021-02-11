@@ -2,12 +2,12 @@
 OS: MacOS X
 
 ## Members
-Ahmed Azhar - 260733580  
-Irmak Pakis -   
-Raymond Diamonds -   
-David Gul -   
-Oliver Murphy -   
-Suhas Udupa -   
+Ahmed Azhar  
+Irmak Pakis    
+Raymond Diamonds    
+David Gul    
+Oliver Murphy    
+Suhas Udupa    
 
 ## Instructions
 
