@@ -4,7 +4,7 @@ package woven_bankwithlogging;
 
 
 public aspect Logger {
-	
+    
     public static void log(String message) {
         System.out.println(message);
     }
@@ -18,10 +18,10 @@ public aspect Logger {
     // Log method calls
     pointcut methodCall(Object object): execution(* *(..)) && @annotation(Log) && target(object);
     after(Object object) : methodCall(object) {
-    	String arguments = "";
+        String arguments = "";
         Object[] object_args = thisJoinPoint.getArgs(); 
         for (Object argument : object_args) { arguments += argument.toString() + " ";}
-        System.out.println("Method " + thisJoinPointStaticPart.getSignature() + " was called on Object: " + object + " with Arguments: " + arguments);
+        System.out.println(thisJoinPointStaticPart.getSignature().getName() + " was called on object " + object + " with parameter " + arguments);
     }
 
 }
