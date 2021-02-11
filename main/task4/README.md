@@ -1,7 +1,7 @@
 # Task 4
 OS: MacOS X
 
-### Demonstrate
+### Demonstration
 To demonstrate the resue of the logging module  
 The Logger.aj file from task3 is added to task4  
 And it is being called from the main Java class file - HelloWorld.java
