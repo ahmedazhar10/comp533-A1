@@ -16,7 +16,7 @@ public aspect Logger {
     
     // Log method calls
     pointcut methodCall(Object object): execution(* *(..)) && @annotation(Log) && target(object);
-    after(Object object) : methodCall(object) {
+    before(Object object) : methodCall(object) {
         String arguments = "";
         Object[] object_args = thisJoinPoint.getArgs(); 
         for (Object argument : object_args) { arguments += argument.toString() + " ";}
