@@ -7,7 +7,7 @@ Simply add the annotation: @Log
 To any object constructor or method you would like to log
 
 ### Locate
-1. Open the terminal and navigate to the project folder.  
+1. Open the terminal and navigate to the task folder.  
 
 ### Config
 2. Make sure that ajc is on your path by typing: export PATH=$HOME/aspectj1.9/bin/:$PATH  
