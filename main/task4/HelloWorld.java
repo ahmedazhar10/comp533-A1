@@ -19,7 +19,11 @@ class World {
 
     @Log
     public String getName(boolean caps) {
-	if (caps) return this.name.toUpperCase();
+	    if (caps) return this.name.toUpperCase();
         else return this.name;
+    }
+
+    public String toString() {
+        return this.name;
     }
 }
