@@ -7,7 +7,7 @@ The Logger.aj file from task3 is added to task4
 And it is being called from the main Java class file - HelloWorld.java
 
 ### Locate
-1. Open your terminal and navigate to the project folder.  
+1. Open your terminal and navigate to the task folder.  
 
 ### Config
 2. Make sure that ajc is on your path by typing: export PATH=$HOME/aspectj1.9/bin/:$PATH  
