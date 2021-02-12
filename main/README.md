@@ -16,7 +16,7 @@ Make sure that ajc is on your path by typing: export PATH=$HOME/aspectj1.9/bin/:
 Make sure aspectjrt is on your classpath by typing: export CLASSPATH=$HOME/aspectj1.9/lib/aspectjrt.jar:$CLASSPATH
 
 ## Note
-To run each task read the readme in each task.
+To run each task follow the readme in each task.
 
 ## Alternative
 It may be difficult to compile AspectJ files in the command line.  
