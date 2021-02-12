@@ -20,7 +20,7 @@ public aspect Logger {
         String arguments = "";
         Object[] object_args = thisJoinPoint.getArgs(); 
         for (Object argument : object_args) { arguments += argument.toString() + " ";}
-        System.out.println(thisJoinPointStaticPart.getSignature().getName() + " was called on object " + object + " with parameter " + arguments);
+        System.out.println(thisJoinPointStaticPart.getSignature().getName() + " called on object " + object + " with parameter " + arguments);
     }
 
 }
