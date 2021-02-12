@@ -3,10 +3,9 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		World this_world = new World("Earth");
-		String world_name = this_world.getName();
+		String world_name = this_world.getName(true);
 		System.out.println("People of the world, " + world_name + ", say Hello!");
-	}
-	
+	}	
 }
 
 class World {
@@ -19,8 +18,8 @@ class World {
     }
 
     @Log
-    public String getName() {
-        return this.name;
+    public String getName(boolean caps) {
+	if (caps) return this.name.toUpperCase();
+        else return this.name;
     }
-
 }
