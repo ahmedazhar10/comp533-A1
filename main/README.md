@@ -13,17 +13,9 @@ Suhas Udupa
 
 ### Config
 Make sure that ajc is on your path by typing: export PATH=$HOME/aspectj1.9/bin/:$PATH
-MAke sure aspectjrt is on your classpath by typing: export CLASSPATH=$HOME/aspectj1.9/lib/aspectjrt.jar:$CLASSPATH
+Make sure aspectjrt is on your classpath by typing: export CLASSPATH=$HOME/aspectj1.9/lib/aspectjrt.jar:$CLASSPATH
 
-### Locate
-Open Terminal    
-1. Go to the directory where the project folder is located
-
-### Compile
-2. Run "ajc - 1.5 task\<number>\/\*.java task\<number>\/\*.aj"
-
-### Run
-3. Run "java task\<number>\.BankWithLogging"  
+## To run each task read the readme in each task.
 
 ## Note
 It may be difficult to compile AspectJ files in the command line.  
