@@ -2,7 +2,7 @@
 OS: MacOS X
 
 ### Locate
-1. Open your terminal and navigate to the project folder.  
+1. Open your terminal and navigate to the task folder.  
 
 ### Config
 2. Make sure that ajc is on your path by typing: export PATH=$HOME/aspectj1.9/bin/:$PATH  
