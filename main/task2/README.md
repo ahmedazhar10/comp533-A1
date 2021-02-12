@@ -9,7 +9,7 @@ OS: MacOS X
 3. Make sure aspectjrt is on your classpath by typing: export CLASSPATH=$HOME/aspectj1.9/lib/aspectjrt.jar:$CLASSPATH  
 
 ### Compile
-4. Run the command: ajc -1.5 woven_bankwithlogging/*.java woven_bankwithlogging/*.aj
+4. Run the command: ajc -1.5 woven_bankwithlogging/\*.java woven_bankwithlogging/\*.aj
 
 
 ### Run
